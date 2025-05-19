@@ -8,279 +8,279 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Nayeem Ahsan
+  tagline: Independent AI/ML Consultant | Generative AI & MLOps Specialist
+  avatar: profile.png # Assuming you will place a 'profile.png' in /assets/images/
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
+  email: mnahsan21@gmail.com
+  phone: (443) 278-3029
+  timezone: America/New_York # Philadelphia is in Eastern Time
+  citizenship: # You can add your citizenship if you wish, e.g., "US Citizen" or leave blank
+  website: # Add your portfolio website URL here once it's live, or personal blog if you have one
+  linkedin: nayeem-ahsan
+  xing: # N/A unless you use it
+  github: NayeemAhsan # Corrected from "Nayeem Ahsan" - ensure this matches your GitHub username
   telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  gitlab: # N/A unless you use it
+  bitbucket: # N/A unless you use it
+  bluesky: # N/A unless you use it
+  twitter: # Add your Twitter/X handle if you use it professionally, e.g., '@YourHandle'
+  stack-overflow: # Your Stack Overflow Number/Username if applicable
+  codewars: # Your Codewars username if applicable
+  goodreads: # Your Goodreads Number-Username if applicable
+  mastodon: # Your full Mastodon link if applicable
+  hackerrank: # Your HackerRank username if applicable
+  leetcode: # Your LeetCode username if applicable
+  pdf: # Link to your downloadable PDF resume, e.g., "assets/Nayeem_Ahsan_Resume.pdf"
 
   languages:
     title: Languages
     info:
-    - idiom: English
-      level: Native
-
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
+      - idiom: English
+        level: Native # Or Fluent/Proficient
+      # Add other languages if applicable, e.g.:
+      # - idiom: Bengali
+      #   level: Native
 
   interests:
     title: Interests
     info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
-
+      - item: Exploring new AI Technologies & Research
+        link:
+      - item: Open Source Contributions (Conceptual)
+        link:
+      - item: Mentoring & Knowledge Sharing
+        link:
+      # Add 1-2 personal interests if you like
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Results-driven Independent AI/ML Consultant and Microsoft Certified Azure AI Engineer & Data Scientist with over 10 years of progressive experience in technology solution delivery. Specialized in leading the architecture, development, and deployment of impactful Generative AI applications, MLOps best practices, and enterprise-grade AI solutions on cloud platforms (primarily Azure, with AWS experience).
+    Proven success in translating complex business requirements into innovative and scalable technical solutions, including RAG systems, multi-agent AI, conversational AI, and predictive models. Adept at guiding technical teams, managing client relationships, and driving projects from ideation through to production and operationalization. Passionate about leveraging cutting-edge AI to solve real-world challenges and deliver measurable business value. Commencing Doctor of Engineering in AI/ML (Fall 2025) to further deepen expertise in advanced AI methodologies.
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    - degree: Doctor of Engineering in Artificial Intelligence and ML
+      university: The George Washington University, Washington D.C.
+      time: 09/2025 – 08/2027 (Expected)
+      details: |
+        Focusing on advanced research and application of Artificial Intelligence and Machine Learning methodologies.
+        [You can add specific research interests or coursework areas later if you wish]
+    - degree: MS in Civil Engineering
+      university: Tennessee Tech University, Cookeville, TN
+      time: # Add your graduation year or timeframe if you wish
+      details: |
+        [You can add relevant coursework, thesis, or projects if they support your AI/ML career, otherwise keep brief]
+    - degree: BS in Civil Engineering
+      university: Bangladesh University of Engineering and Technology, Dhaka, Bangladesh
+      time: # Add your graduation year or timeframe if you wish
+      details: |
+        [Keep brief unless specific projects are highly relevant to your tech career path]
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    - role: Independent AI/ML Consultant
+      time: 02/2023 – Present
+      company: Self-Employed, Philadelphia, PA
+      details: |
+        Led the architecture and hands-on development of enterprise-grade Generative AI solutions on Azure for diverse clients, focusing on building reusable components, establishing best practices, and enabling client teams to leverage advanced AI capabilities. Specialized in RAG systems, AI agent development, and integrating robust governance and MLOps principles.
+          - **Client - Insurance Brokerage:** Architected and implemented a production-intent RAG pipeline on Azure (Azure OpenAI, Azure AI Search, AKS) for AI document comparison, focusing on organizing unstructured data for scalable GenAI processing and developing AI best practices.
+          - **Client - Healthcare Provider:** Led Python-based development of a multi-agent AI system (LangChain/LangGraph, Azure OpenAI) for chatbot/agent automation, engineering governance controls and ensuring HIPAA-aware data handling.
+          - **Client - Consulting Service Provider:** Developed a Generative AI knowledge retrieval platform on Azure to enhance developer/employee productivity and enable internal AI capabilities.
+          - **General Contributions:** Advised clients on GenAI platform establishment, LLM model curation, prompt engineering standards, operational governance, and MLOps (Azure DevOps, CI/CD concepts). Evaluated commercial vs. custom AI solutions ('Build vs. Buy' analysis).
+    - role: Sr. Technical PM
+      time: 05/2020 – 01/2023
+      company: Curotec, Philadelphia, PA
+      details: |
+        Managed end-to-end product and project lifecycles for key client IT initiatives and SaaS solutions, ensuring on-time and on-budget execution. Defined technology vision and product strategy for clients, aligning solutions with business goals. Led cross-functional teams in product development, resulting in successful launches.
+          - Successfully delivered a $1M SaaS-based ERP solution, integrating inventory management, invoicing, accounting, and email marketing.
+          - Acted as the primary liaison between stakeholders, development teams, and clients, translating business needs into technical requirements.
+    - role: Co-Founder & Head of Product
+      time: 09/2019 – 12/2020
+      company: Giffot.ai, Philadelphia, PA
+      details: |
+        Co-founded and led product strategy for a cloud-based B2C retail platform. Defined core product features and roadmap based on market research. Managed development backlog for an engineering team, delivering a fully functional application.
+          - Designed and implemented a custom AI/ML recommendation algorithm to enhance user experience and increase sales.
+          - Developed and executed go-to-market and branding strategies for platform launch.
+    - role: Technical Solutions Manager
+      time: 03/2019 – 10/2019
+      company: Phenom People, Greater Philadelphia Area
+      details: |
+        Led a team in delivering end-to-end technical solutions, including solution architecture and implementation for SaaS-based Phenom Modules. Collaborated with Product teams to align roadmaps with customer needs. Mentored Sales Engineering team.
+    - role: Technology Consultant
+      time: 04/2015 – 02/2019
+      company: Accenture, Greater Philadelphia Area
+      details: |
+        Managed multiple projects for enterprise clients, implementing intelligent automation using AI/ML and digital transformation via cloud migration. Involved in technology development, business development, and team building.
+          - Leveraged AWS SageMaker to build, test, and deploy Cloud AI analytics POCs.
+          - Led initiatives for major insurance clients to automate and optimize claims processing workflows using RPA and AI/ML techniques, achieving significant efficiency gains (e.g., up to 40% automation increase).
+          - Designed data analytics frameworks (data marts, data lakes on Snowflake) and conducted feasibility analyses for automation.
+    - role: Software Engineer
+      time: 02/2013 – 12/2014 # Adjusted start year to match overall IT experience timeline
+      company: Medica, Greater Minneapolis-St. Paul Area
+      details: |
+        Managed end-to-end testing phases for healthcare systems. Led functional and compliance testing for claims processing systems adhering to HIPAA Transactions & Code Sets Standards (834 & 837). Developed and tested Web Services using SoapUI.
 
 certifications:
-  title: Certifications
+  title: Certifications & Nanodegrees # Combined for conciseness
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+    - name: Microsoft Certified: Azure AI Engineer Associate
+      # start: [Year] # Add year if you wish
+      # end: [Year, or Present if still active and requires renewal]
+      organization: Microsoft
+      credentialid: # Add if you want to share
+      credentialurl: # Link to your Credly/Microsoft certification page
+      credentialname: Microsoft Certification
+      details: |
+        Demonstrates expertise in designing and implementing AI solutions using Azure Cognitive Services, Azure Machine Learning, and Knowledge Mining.
+    - name: Microsoft Certified: Azure Data Scientist Associate
+      # start: [Year]
+      # end: [Year, or Present]
+      organization: Microsoft
+      credentialid:
+      credentialurl:
+      credentialname: Microsoft Certification
+      details: |
+        Validates skills in running experiments and training, managing, and deploying machine learning models on Azure.
+    - name: Nanodegree in Generative AI
+      organization: Udacity
+      # start: [Year]
+      # end: [Year]
+      details: |
+        Comprehensive program covering foundational models, LLMs, prompt engineering, diffusion models, and building GenAI applications.
+    - name: Nanodegree in AI Product Manager
+      organization: Udacity
+      # start: [Year]
+      # end: [Year]
+      details: |
+        Focused on defining AI product strategy, managing AI project lifecycles, and understanding the business aspects of AI.
+    - name: Nanodegree in Machine Learning DevOps (MLOps) Engineering
+      organization: Udacity
+      # start: [Year]
+      # end: [Year]
+      details: |
+        Covered best practices for building and deploying production-ready machine learning pipelines and systems.
+    - name: Nanodegree in Deep Learning
+      organization: Udacity
+      # start: [Year]
+      # end: [Year]
+      details: |
+        In-depth study of neural networks, convolutional networks, recurrent networks, and deep learning applications.
+    - name: Nanodegree in Natural Language Processing
+      organization: Udacity
+      # start: [Year]
+      # end: [Year]
+      details: |
+        Focused on NLP techniques including text processing, feature extraction, sequence models, and attention mechanisms.
+    - name: Nanodegree in AI for Business Leaders
+      organization: Udacity
+      # start: [Year]
+      # end: [Year]
+      details: |
+        Explored the strategic implications and applications of AI across various business functions.
+    - name: Nanodegree in AI Programming with Python
+      organization: Udacity
+      # start: [Year]
+      # end: [Year]
+      details: |
+        Mastered Python programming fundamentals for AI, including essential libraries like NumPy, Pandas, and Matplotlib.
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-  title: Projects
+projects: # This section is for personal/side projects. Your client work is under "Experiences"
+  title: Projects & Publications
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    A selection of my key client projects are detailed under "Experiences." Below are some of my articles and personal project highlights that showcase my passion for exploring and building with AI.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    - title: Medium Article - Building an AI-Powered Insurance Document Comparison Tool
+      link: # Add direct link to your Medium article if available, otherwise use your Medium profile link
+      tagline: "Authored a comprehensive guide on architecting and developing an LLM-powered RAG-based tool for semantic document comparison using Azure AI."
+    - title: Medium Article - Building an AI-Powered Boarding Kiosk
+      link: # Add direct link to your Medium article
+      tagline: "Detailed the process of creating a conversational AI kiosk using Azure AI Services for enhanced passenger experience."
+    - title: Conversational AI Chatbot (Conceptual Project)
+      link: # Link to GitHub if you have a version of this, or your GitHub profile
+      tagline: "Designed and built a conceptual Conversational AI chatbot integrated with enterprise knowledge bases using Retrieval-Augmented Generation (RAG) and LLMs."
+    - title: Personalized Multimodal-LLM-Agents with LLMOps (Conceptual Project)
+      link:
+      tagline: "Explored architectures for personalized multimodal LLM agents, incorporating MLOps principles for robust deployment and management."
+    - title: Deploying a Machine Learning Model with FastAPI (Conceptual Project/Tutorial)
+      link:
+      tagline: "Developed a project demonstrating best practices for deploying ML models as scalable APIs using Python and FastAPI."
+    # You might want to add the GitHub link to your LLM-Powered-RAG-based-Document-Comparison-Tool here as a project if it's not just the Medium article.
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
+oss: # Open Source Contributions - Only fill if you have specific contributions to list
   title: OSS Contributions
   intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    I am passionate about open source and aim to contribute more actively. [Or list actual contributions if you have them.]
   contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    # - title: Project Name
+    #   link: "#link_to_contribution_or_project"
+    #   tagline: "Brief description of your contribution."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
+publications: # If you have formal academic publications beyond Medium articles
   title: Publications
   intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+    My thought leadership and practical explorations in AI are primarily shared via my Medium articles, listed under "Projects & Publications."
   papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+    # - title: Your Paper Title
+    #   link: "#link_to_paper"
+    #   authors: Your Name, et al.
+    #   conference: Conference/Journal Name, Year
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
+recommendations: # You would need to get these from actual people
   title: Recommendations
   list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
+    # - person: Jane Doe
+    #   email: jane.doe@example.com
+    #   phone:
+    #   role: Former Manager at Company X
+    #   recommendation: |
+    #     Nayeem is an exceptional AI professional... [Get actual recommendations]
 
-      He is a great employee!
+skills: # This theme seems to use a percentage-based skill level. If not, you can list skills differently.
+  title: Skills & Proficiency
 
-skills:
-  title: Skills &amp; Proficiency
+  toolset: # You'll need to adapt this to how the theme displays skills. Many themes just list skills.
+    # The following is an EXAMPLE of how you might list if the theme forces percentages.
+    # Otherwise, it's better to categorize as we did in your resume.
+    # For a portfolio, you might prefer a list of categorized skills instead of percentages.
+    # I will provide a categorized list below this example section as an alternative.
 
-  toolset:
-  - name: Python & Django
-    level: 98%
+    - name: Python (AI/ML, Data Science, FastAPI/Flask)
+      level: 95% # This is subjective; represent your confidence.
+    - name: Generative AI (LLMs, RAG, Prompt Engineering, LangChain/LangGraph)
+      level: 90%
+    - name: Azure AI Platform (Azure OpenAI, AI Search, AKS, Azure ML, MLOps)
+      level: 90%
+    - name: MLOps & Model Deployment
+      level: 85%
+    - name: NLP & Deep Learning (PyTorch, TensorFlow concepts)
+      level: 85%
+    - name: SQL & Data Engineering Concepts
+      level: 80%
+    - name: AWS SageMaker & AI Services
+      level: 75%
+    - name: Solution Architecture & Consulting
+      level: 90%
+    # Add other key skills like API Development, Docker, Kubernetes, Git, Agile etc.
 
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
+# ALTERNATIVE SKILLS REPRESENTATION (if the theme allows more free-form or categorized lists):
+# skills_categorized:
+#   title: Key Skills & Technologies
+#   categories:
+#     - name: Generative AI & LLMs
+#       list: Python, LangChain, LangGraph, Azure OpenAI Service, LLMs (GPT-3.5/4), RAG Architectures, Prompt Engineering (Advanced), Vector Databases (Azure AI Search, ChromaDB), Hugging Face (Transformers)
+#     - name: AI/ML Development & Modeling
+#       list: PyTorch, TensorFlow, Scikit-learn, NLP (NLTK, spaCy concepts), Deep Learning, Computer Vision (Azure Custom Vision), Predictive Modeling, Statistical Analysis
+#     - name: MLOps & Deployment
+#       list: MLflow, Docker, Kubernetes (AKS), CI/CD for AI (Azure DevOps), Model Lifecycle Management, API Development (FastAPI, Flask), RESTful APIs, Model Monitoring
+#     - name: Cloud Platforms & Data
+#       list: Azure (AKS, AI Search, Document Intelligence, Azure ML, ADLS), AWS (SageMaker), SQL, NoSQL Databases (concepts), ETL/Data Pipelines
+#     - name: Leadership & Consulting
+#       list: AI Strategy, Solution Architecture, Project Leadership, Stakeholder Management, Client Advisory, Agile Methodologies
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>. Adapted by Nayeem Ahsan.
