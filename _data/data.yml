@@ -128,7 +128,7 @@ experiences:
 certifications:
   title: Certifications & Nanodegrees # Combined for conciseness
   list:
-    - name: Microsoft Certified: Azure AI Engineer Associate
+    - name: Microsoft Certified Azure AI Engineer Associate
       # start: [Year] # Add year if you wish
       # end: [Year, or Present if still active and requires renewal]
       organization: Microsoft
@@ -137,7 +137,7 @@ certifications:
       credentialname: Microsoft Certification
       details: |
         Demonstrates expertise in designing and implementing AI solutions using Azure Cognitive Services, Azure Machine Learning, and Knowledge Mining.
-    - name: Microsoft Certified: Azure Data Scientist Associate
+    - name: Microsoft Certified Azure Data Scientist Associate
       # start: [Year]
       # end: [Year, or Present]
       organization: Microsoft
