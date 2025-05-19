@@ -4,13 +4,13 @@
 
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: Nayeem Ahsan
-  tagline: Independent AI/ML Consultant | Generative AI & MLOps Specialist
-  avatar: profile_1.png # Assuming you will place a 'profile.png' in /assets/images/
+  tagline: Microsoft Certified Azure AI Engineer & Data Scientist | Generative AI & MLOps Specialist | AI/ML Consultant
+  avatar: profile.png # Assuming you will place a 'profile.png' in /assets/images/
 
   # Sidebar links
   email: mnahsan21@gmail.com
@@ -38,7 +38,7 @@ sidebar:
     title: Languages
     info:
       - idiom: English
-        level: Native # Or Fluent/Proficient
+        #level: Native # Or Fluent/Proficient
       # Add other languages if applicable, e.g.:
       # - idiom: Bengali
       #   level: Native
@@ -195,44 +195,44 @@ projects: # This section is for personal/side projects. Your client work is unde
     A selection of my key client projects are detailed under "Experiences." Below are some of my articles and personal project highlights that showcase my passion for exploring and building with AI.
   assignments:
     - title: Medium Article - Building an AI-Powered Insurance Document Comparison Tool
-      link: # Add direct link to your Medium article if available, otherwise use your Medium profile link
+      link: https://medium.com/@mnahsan21/building-an-ai-powered-insurance-document-comparison-tool-using-azure-and-llms-a08d5fd584bf
       tagline: "Authored a comprehensive guide on architecting and developing an LLM-powered RAG-based tool for semantic document comparison using Azure AI."
     - title: Medium Article - Building an AI-Powered Boarding Kiosk
-      link: # Add direct link to your Medium article
+      link: https://medium.com/@mnahsan21/building-an-ai-powered-boarding-kiosk-using-azure-ai-services-0002a34487e7
       tagline: "Detailed the process of creating a conversational AI kiosk using Azure AI Services for enhanced passenger experience."
     - title: Conversational AI Chatbot (Conceptual Project)
       link: # Link to GitHub if you have a version of this, or your GitHub profile
       tagline: "Designed and built a conceptual Conversational AI chatbot integrated with enterprise knowledge bases using Retrieval-Augmented Generation (RAG) and LLMs."
     - title: Personalized Multimodal-LLM-Agents with LLMOps (Conceptual Project)
-      link:
+      link: https://github.com/NayeemAhsan/Personalized-multimodal-LLM-Agents-with-LLMOps
       tagline: "Explored architectures for personalized multimodal LLM agents, incorporating MLOps principles for robust deployment and management."
     - title: Deploying a Machine Learning Model with FastAPI (Conceptual Project/Tutorial)
-      link:
+      link: https://github.com/NayeemAhsan/Deploying-a-Machine-Learning-Model-with-FastAPI
       tagline: "Developed a project demonstrating best practices for deploying ML models as scalable APIs using Python and FastAPI."
     # You might want to add the GitHub link to your LLM-Powered-RAG-based-Document-Comparison-Tool here as a project if it's not just the Medium article.
 
-oss: # Open Source Contributions - Only fill if you have specific contributions to list
-  title: OSS Contributions
-  intro: >
-    I am passionate about open source and aim to contribute more actively. [Or list actual contributions if you have them.]
-  contributions:
+#oss: # Open Source Contributions - Only fill if you have specific contributions to list
+  #title: OSS Contributions
+  #intro: >
+    #I am passionate about open source and aim to contribute more actively. [Or list actual contributions if you have them.]
+  #contributions:
     # - title: Project Name
     #   link: "#link_to_contribution_or_project"
     #   tagline: "Brief description of your contribution."
 
-publications: # If you have formal academic publications beyond Medium articles
-  title: Publications
-  intro: |
-    My thought leadership and practical explorations in AI are primarily shared via my Medium articles, listed under "Projects & Publications."
-  papers:
+#publications: # If you have formal academic publications beyond Medium articles
+  #title: Publications
+  #intro: |
+    #My thought leadership and practical explorations in AI are primarily shared via my Medium articles, listed under "Projects & Publications."
+  #papers:
     # - title: Your Paper Title
     #   link: "#link_to_paper"
     #   authors: Your Name, et al.
     #   conference: Conference/Journal Name, Year
 
-recommendations: # You would need to get these from actual people
-  title: Recommendations
-  list:
+#recommendations: # You would need to get these from actual people
+  #title: Recommendations
+  #list:
     # - person: Jane Doe
     #   email: jane.doe@example.com
     #   phone:
