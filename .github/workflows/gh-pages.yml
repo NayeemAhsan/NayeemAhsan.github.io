@@ -1,0 +1,42 @@
+name: Build and Deploy Jekyll site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master  # Or 'main' if that's your default branch
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4 # Checks out your repository under $GITHUB_WORKSPACE
+
+      - name: Setup Ruby and Bundler
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1' # Or a version compatible with your Gemfile.lock (Jekyll 3.9.2 is old, Ruby 2.7-3.1 often work)
+          bundler-cache: true # Installs and caches gems from Gemfile.lock
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --baseurl "${{ steps.vars.outputs.baseurl }}" # Build the site
+        env:
+          JEKYLL_ENV: production
+      # The baseurl is now correctly empty for a user page from the _config.yml
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4 # Popular action to deploy to gh-pages branch
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site # Default Jekyll output directory
+          # For a user page (yourusername.github.io), you deploy to the 'master' or 'main' branch.
+          # This action might need to be configured differently for user pages
+          # OR you can deploy to a 'gh-pages' branch and set that as your source.
+          # Let's try a configuration more suitable for user pages:
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          publish_branch: master # Or 'main', DEPLOYING TO THE SAME BRANCH
+          # For this to work, your GitHub Pages source must be set to deploy from 'master' (or 'main') /root
+          # And you need to ensure the checkout step doesn't conflict with the deployment pushing to the same branch.
+          # A safer common pattern for user pages is to build and commit to the same branch.
