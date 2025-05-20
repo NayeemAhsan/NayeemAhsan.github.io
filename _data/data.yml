@@ -268,19 +268,19 @@ skills: # This theme seems to use a percentage-based skill level. If not, you ca
     # Add other key skills like API Development, Docker, Kubernetes, Git, Agile etc.
 
 # ALTERNATIVE SKILLS REPRESENTATION (if the theme allows more free-form or categorized lists):
-skills_categorized:
-  title: Key Skills & Technologies
-  categories:
-    - name: Generative AI & LLMs
-      list: Python, LangChain, LangGraph, Azure OpenAI Service, LLMs (GPT-3.5/4), RAG Architectures, Prompt Engineering (Advanced), Vector Databases (Azure AI Search, ChromaDB), Hugging Face (Transformers)
-    - name: AI/ML Development & Modeling
-      list: PyTorch, TensorFlow, Scikit-learn, NLP (NLTK, spaCy concepts), Deep Learning, Computer Vision (Azure Custom Vision), Predictive Modeling, Statistical Analysis
-    - name: MLOps & Deployment
-      list: MLflow, Docker, Kubernetes (AKS), CI/CD for AI (Azure DevOps), Model Lifecycle Management, API Development (FastAPI, Flask), RESTful APIs, Model Monitoring
-    - name: Cloud Platforms & Data
-      list: Azure (AKS, AI Search, Document Intelligence, Azure ML, ADLS), AWS (SageMaker), SQL, NoSQL Databases (concepts), ETL/Data Pipelines
-    - name: Leadership & Consulting
-      list: AI Strategy, Solution Architecture, Project Leadership, Stakeholder Management, Client Advisory, Agile Methodologies
+# skills_categorized:
+#   title: Key Skills & Technologies
+#   categories:
+#     - name: Generative AI & LLMs
+#       list: Python, LangChain, LangGraph, Azure OpenAI Service, LLMs (GPT-3.5/4), RAG Architectures, Prompt Engineering (Advanced), Vector Databases (Azure AI Search, ChromaDB), Hugging Face (Transformers)
+#     - name: AI/ML Development & Modeling
+#       list: PyTorch, TensorFlow, Scikit-learn, NLP (NLTK, spaCy concepts), Deep Learning, Computer Vision (Azure Custom Vision), Predictive Modeling, Statistical Analysis
+#     - name: MLOps & Deployment
+#       list: MLflow, Docker, Kubernetes (AKS), CI/CD for AI (Azure DevOps), Model Lifecycle Management, API Development (FastAPI, Flask), RESTful APIs, Model Monitoring
+#     - name: Cloud Platforms & Data
+#       list: Azure (AKS, AI Search, Document Intelligence, Azure ML, ADLS), AWS (SageMaker), SQL, NoSQL Databases (concepts), ETL/Data Pipelines
+#     - name: Leadership & Consulting
+#      list: AI Strategy, Solution Architecture, Project Leadership, Stakeholder Management, Client Advisory, Agile Methodologies
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>. Adapted by Nayeem Ahsan.
